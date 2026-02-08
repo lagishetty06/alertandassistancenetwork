@@ -1,0 +1,23 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/page.tsx:131:26
+Type error: Argument of type '{ smsQueue: number; offlineRequests: number; isOnline: boolean; isInitialized: boolean; stats: { pending: number; sent: number; failed: number; }; }' is not assignable to parameter of type 'SetStateAction<{ isOnline: boolean; queuedMessages: number; }>'.
+  Property 'queuedMessages' is missing in type '{ smsQueue: number; offlineRequests: number; isOnline: boolean; isInitialized: boolean; stats: { pending: number; sent: number; failed: number; }; }' but required in type '{ isOnline: boolean; queuedMessages: number; }'.
+
+  129 |       if (offlineResult.success) {
+  130 |         const status = offlineSMSService.getQueueStatus()
+> 131 |         setOfflineStatus(status)
+      |                          ^
+  132 |       }
+  133 |     } catch (error) {
+  134 |       console.error("Γ¥î Failed to initialize advanced features:", error)
+Next.js build worker exited with code: 1 and signal: null

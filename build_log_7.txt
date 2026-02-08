@@ -1,0 +1,22 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./lib/firebase.ts:23:51
+Type error: Property 'emulator' does not exist on type 'Config'.
+
+  21 |
+  22 | // For development - only connect to emulator if not already connected
+> 23 | if (typeof window !== "undefined" && !auth.config.emulator) {
+     |                                                   ^
+  24 |   // Only use emulator in development and if available
+  25 |   try {
+  26 |     // Uncomment the line below if you want to use Firebase Auth emulator in development
+Next.js build worker exited with code: 1 and signal: null

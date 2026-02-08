@@ -1,0 +1,29 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/21) ...
+   Generating static pages (5/21) 
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\.next\server\webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>)
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.t [as require] (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\.next\server\webpack-runtime.js:1:128)
+    at require (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:133:10079)
+    at u (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:92:646)
+    at U (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:92:10492)
+    at W (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:92:13199)
+    at C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:92:15489
+    at Z._fromJSON (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:92:15523)
+    at JSON.parse (<anonymous>)
+    at L (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:92:10216)
+    at N (C:\Users\Sai Charan\Downloads\alert-assistance-network (1)\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:92:9533)
+Export encountered an error on /page: /, exiting the build.
+ Γ¿» Next.js build worker exited with code: 1 and signal: null

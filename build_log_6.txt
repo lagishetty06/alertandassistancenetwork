@@ -1,0 +1,23 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/volunteer/page.tsx:39:25
+Type error: Property 'error' does not exist on type '{ success: boolean; data: any[]; isOffline: boolean; message: string; } | { success: boolean; data: any[]; isOffline: boolean; message?: undefined; }'.
+  Property 'error' does not exist on type '{ success: boolean; data: any[]; isOffline: boolean; message: string; }'.
+
+  37 |         }
+  38 |       } else {
+> 39 |         setError(result.error || "Failed to fetch help requests")
+     |                         ^
+  40 |       }
+  41 |     } catch (err) {
+  42 |       console.error("Γ¥î Error fetching help requests:", err)
+Next.js build worker exited with code: 1 and signal: null

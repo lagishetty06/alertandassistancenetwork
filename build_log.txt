@@ -1,0 +1,51 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ ΓÜá Compiled with warnings
+
+./app/help-requests/page.tsx
+Attempted import error: 'checkFirebaseConnection' is not exported from '@/lib/firebase-services' (imported as 'checkFirebaseConnection').
+
+Import trace for requested module:
+./app/help-requests/page.tsx
+
+./app/help-requests/page.tsx
+Attempted import error: 'checkFirebaseConnection' is not exported from '@/lib/firebase-services' (imported as 'checkFirebaseConnection').
+
+Import trace for requested module:
+./app/help-requests/page.tsx
+
+ ΓÜá Compiled with warnings
+
+./app/help-requests/page.tsx
+Attempted import error: 'checkFirebaseConnection' is not exported from '@/lib/firebase-services' (imported as 'checkFirebaseConnection').
+
+Import trace for requested module:
+./app/help-requests/page.tsx
+
+./app/help-requests/page.tsx
+Attempted import error: 'checkFirebaseConnection' is not exported from '@/lib/firebase-services' (imported as 'checkFirebaseConnection').
+
+Import trace for requested module:
+./app/help-requests/page.tsx
+
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/contact-tree/page.tsx:98:76
+Type error: Argument of type '{ name: string; phone: string; email: string; relationship: EmergencyContact["relationship"]; priority: number; preferredContactMethod: EmergencyContact["preferredContactMethod"]; specialInstructions: string; }' is not assignable to parameter of type 'Omit<EmergencyContact, "id">'.
+  Property 'isAvailable' is missing in type '{ name: string; phone: string; email: string; relationship: EmergencyContact["relationship"]; priority: number; preferredContactMethod: EmergencyContact["preferredContactMethod"]; specialInstructions: string; }' but required in type 'Omit<EmergencyContact, "id">'.
+
+   96 |     setIsLoading(true)
+   97 |     try {
+>  98 |       const result = await emergencyContactTreeService.addEmergencyContact(contactForm)
+      |                                                                            ^
+   99 |
+  100 |       if (result.success) {
+  101 |         // Reset form
+Next.js build worker exited with code: 1 and signal: null

@@ -1,0 +1,23 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/help-requests/page.tsx:285:35
+Type error: Property 'troubleshooting' does not exist on type '{ success: boolean; id: string; isOffline: boolean; duration?: undefined; error?: undefined; } | { success: boolean; id: string; duration: number; isOffline: boolean; error?: undefined; } | { success: boolean; error: string; id?: undefined; isOffline?: undefined; duration?: undefined; }'.
+  Property 'troubleshooting' does not exist on type '{ success: boolean; id: string; isOffline: boolean; duration?: undefined; error?: undefined; }'.
+
+  283 |           type: "error",
+  284 |           message: `Γ¥î Submission failed: ${result.error}`,
+> 285 |           troubleshooting: result.troubleshooting,
+      |                                   ^
+  286 |           duration: result.duration,
+  287 |         })
+  288 |       }
+Next.js build worker exited with code: 1 and signal: null

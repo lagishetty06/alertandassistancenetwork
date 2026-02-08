@@ -1,0 +1,46 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/20) ...
+   Generating static pages (5/20) 
+   Generating static pages (10/20) 
+   Generating static pages (15/20) 
+ Γ£ô Generating static pages (20/20)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+Γöî Γùï /                                    12.2 kB         301 kB
+Γö£ Γùï /_not-found                            977 B         102 kB
+Γö£ Γùï /about                               3.08 kB         288 kB
+Γö£ Γùï /admin                               1.29 kB         115 kB
+Γö£ ╞Æ /api/sms/send                          142 B         101 kB
+Γö£ ╞Æ /api/sms/test                          142 B         101 kB
+Γö£ Γùï /contact-tree                        10.7 kB         309 kB
+Γö£ Γùï /crowdsource-alerts                  5.65 kB         308 kB
+Γö£ Γùï /dashboard                            2.4 kB         288 kB
+Γö£ Γùï /diagnostics                         4.46 kB         290 kB
+Γö£ Γùï /help-requests                       14.1 kB         312 kB
+Γö£ Γùï /login                               3.26 kB         293 kB
+Γö£ Γùï /profile                              3.1 kB         288 kB
+Γö£ Γùï /resources                           3.71 kB         289 kB
+Γö£ Γùï /settings                            7.13 kB         305 kB
+Γö£ Γùï /sms-demo                             4.7 kB         309 kB
+Γö£ Γùï /volunteer                           5.05 kB         295 kB
+Γöö Γùï /weather                             3.32 kB         289 kB
++ First Load JS shared by all             101 kB
+  Γö£ chunks/4bd1b696-989d33d1584df2ab.js  53.2 kB
+  Γö£ chunks/684-ccf528cf09aa2a93.js       45.3 kB
+  Γöö other shared chunks (total)          1.98 kB
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

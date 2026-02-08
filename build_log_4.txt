@@ -1,0 +1,22 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/volunteer/page.tsx:36:68
+Type error: Property 'message' does not exist on type '{ success: boolean; data: any[]; isOffline: boolean; }'.
+
+  34 |         // Show offline status if applicable
+  35 |         if (result.isOffline) {
+> 36 |           setError(`ΓÜá∩╕Å Offline Mode: Showing cached data. ${result.message || "Some information may not be current."}`)
+     |                                                                    ^
+  37 |         } else if (result.error) {
+  38 |           setError(`ΓÜá∩╕Å Warning: ${result.error}. Showing available data.`)
+  39 |         }
+Next.js build worker exited with code: 1 and signal: null
